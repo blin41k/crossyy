@@ -108,3 +108,62 @@
 		margin: 24px 0;
 	}
 }
+
+/* ПРОБА WIM 6-НЕДЕЛЯ 1440px
+@media screen and (width: 1440px) {
+	.sneaker__similar {
+		display: flex;
+		flex-direction: column;
+		gap: 32px;
+		align-self: stretch;
+	}
+
+	.sneaker__similar-title {
+		font-size: 48px;
+	}
+
+	.sneaker__similar-sneaker {
+		display: grid;
+		gap: 24px;
+		grid-template-columns: repeat(3, 1fr);
+	}
+
+	.sneaker {
+		border-radius: 12px;
+		background: white;
+		height: fit-content;
+	}
+
+	.sneaker__img {
+		display: block;
+		max-width: 100%;
+		border-radius: 12px 12px 0 0;
+	}
+
+	.sneaker__info {
+		display: flex;
+		padding: 32px 24px;
+		flex-direction: column;
+		gap: 12px;
+	}
+
+	.sneaker__info-title {
+		align-self: stretch;
+		color: var(--black, #121723);
+		font-family: Anonymous Pro;
+		font-size: 26px;
+		font-style: normal;
+		font-weight: 700;
+		line-height: normal;
+	}
+
+	.sneaker__info-subtitle {
+		align-self: stretch;
+		color: var(--black, #121723);
+		font-family: Anonymous Pro;
+		font-size: 20px;
+		font-style: normal;
+		font-weight: 400;
+		line-height: normal;
+	}
+} */
