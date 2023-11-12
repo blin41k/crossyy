@@ -18,18 +18,18 @@ a {
 
 @font-face {
 	font-family: 'Anonymous Pro';
-	src: url(../../fonts/AnonymousPro-Bold.ttf);
+	src: url(../fonts/AnonymousPro-Bold.ttf);
 	font-weight: 700;
 }
 
 @font-face {
 	font-family: 'Anonymous Pro';
-	src: url(../../fonts/AnonymousPro-Regular.ttf);
+	src: url(../fonts/AnonymousPro-Regular.ttf);
 }
 
 @font-face {
 	font-family: 'IBM Plex Mono';
-	src: url(../../fonts/IBMPlexMono-Medium.ttf);
+	src: url(../fonts/IBMPlexMono-Medium.ttf);
 }
 
 .main {
