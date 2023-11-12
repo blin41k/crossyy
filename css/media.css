@@ -7,11 +7,15 @@
 	.header__container-mobile {
 		flex-direction: column;
 		gap: 24px;
+		padding: 24px 0;
 	}
 
 	.container {
 		max-width: 375px;
-		justify-content: center;
+	}
+
+	.socials {
+		height: 20px;
 	}
 
 	.header {
@@ -36,51 +40,55 @@
 		height: 254px;
 	}
 
-	.main {
-		display: flex;
-		padding: 0px 16px;
-		justify-content: center;
-		align-items: center;
-		align-self: stretch;
-	}
-
 	.footer .container__apart {
-		display: flex;
-		padding: 32px 0px 24px 0px;
 		flex-direction: column;
-		align-items: center;
 		gap: 24px;
-		align-self: stretch;
 	}
 
 	.footer {
-		padding: 0px 16px;
-	}
-
-	.footer__logo {
-		height: 22px;
-		width: 300px;
+		padding: 32px 16px 24px;
 	}
 
 	.container__main {
 		padding: 0px 16px;
 	}
 
-	.container__main__content {
-		padding: 32px 0px;
-	}
-
 	.sneaker__big {
 		padding: 24px;
+		align-self: stretch;
+	}
+
+	.sneaker__big__img {
+		height: 172px;
+	}
+
+	.sneaker__big__title {
+		font-size: 32px;
+	}
+
+	.sneaker__big__subtitle {
+		font-size: 20px;
+		line-height: 20px;
+	}
+
+	.sneaker__big__additional__info {
+		flex-direction: column;
+	}
+
+	.sneaker__big__text {
+		font-size: 16px;
+		line-height: 24px;
+	}
+
+	.sneaker__big__parameter__title {
+		font-size: 24px;
+	}
+
+	.sneaker__big__parameter__value {
+		font-size: 16px;
 	}
 
 	.divider {
-		margin-top: 0px;
-		margin-bottom: 0px;
-	}
-
-	.copyright {
-		padding-bottom: 24px;
-		padding-top: 24px;
+		margin: 24px 0;
 	}
 }
