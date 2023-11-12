@@ -23,6 +23,10 @@
 		padding: 0px 16px;
 	}
 
+	.main {
+		padding: 32px 16px;
+	}
+
 	.header__logo {
 		width: 215px;
 	}
@@ -50,12 +54,16 @@
 	}
 
 	.container__main {
-		padding: 0px 16px;
+		padding: 0px;
+	}
+
+	.container__main__content {
+		padding: 0;
 	}
 
 	.sneaker__big {
 		padding: 24px;
-		align-self: stretch;
+		border-radius: 12px;
 	}
 
 	.sneaker__big__img {
@@ -81,11 +89,19 @@
 	}
 
 	.sneaker__big__parameter__title {
-		font-size: 24px;
+		font-size: 16px;
 	}
 
 	.sneaker__big__parameter__value {
 		font-size: 16px;
+	}
+
+	.parameters__header {
+		font-size: 24px;
+	}
+
+	.sneaker__big__parameters {
+		align-self: stretch;
 	}
 
 	.divider {
