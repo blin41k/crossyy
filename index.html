@@ -1,14 +1,17 @@
 <html lang="ru">
 	<head>
 		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1, minimum-scale=1"
+		/>
 		<title>Кроссы — и точка</title>
 		<link rel="stylesheet" href="css/style.css" />
 		<link rel="stylesheet" href="css/media.css" />
 	</head>
 	<body>
 		<header class="header">
-			<div class="container container__apart h__100">
+			<div class="container container__apart header__container-mobile h__100">
 				<a href="/"
 					><img class="header__logo" src="images/logo.svg" alt="logo"
 				/></a>
@@ -40,11 +43,17 @@
 				<div class="cards">
 					<a href="pages/NewBalanceCms.html">
 						<div class="card">
-							<img
-								alt="New Balance C-ms574"
-								src="images/New Balance C-ms57.png"
-								class="card__image"
-							/>
+							<picture>
+								<source
+									media="(min-width: 320px) and (max-width: 460px)"
+									srcset="images/New Balance C-ms57small.png"
+								/>
+								<img
+									alt="New Balance C-ms574"
+									src="images/New Balance C-ms57.png"
+									class="card__image"
+								/>
+							</picture>
 							<div class="products__footer">
 								<h3 class="card__title">New Balance C-ms574</h3>
 								<p class="card__text">Salehe Bembury Shark Skin</p>

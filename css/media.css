@@ -4,14 +4,14 @@
 		line-height: 32px;
 	}
 
-	.container__apart {
-		padding: 24px 0px;
+	.header__container-mobile {
 		flex-direction: column;
 		gap: 24px;
 	}
 
 	.container {
 		max-width: 375px;
+		justify-content: center;
 	}
 
 	.header {
@@ -26,6 +26,14 @@
 	.cards {
 		display: flex;
 		flex-direction: column;
+	}
+
+	.card__title {
+		margin-bottom: 12px;
+	}
+
+	.card__image {
+		height: 254px;
 	}
 
 	.main {
@@ -64,5 +72,15 @@
 
 	.sneaker__big {
 		padding: 24px;
+	}
+
+	.divider {
+		margin-top: 0px;
+		margin-bottom: 0px;
+	}
+
+	.copyright {
+		padding-bottom: 24px;
+		padding-top: 24px;
 	}
 }
